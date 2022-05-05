@@ -1,16 +1,19 @@
-import React from "react"
-import SearchBar from "../components/searchbar"
+import React from "react";
+import SearchBar from "../components/searchbar";
+import Link from "next/link";
 
 function Home() {
   return (
-    <div className='title'>
-      <div className='text-3xl font-bold text-green-500'>hello <span className='text-white'>tummy</span></div>
-      <div className="text-gray-400">
-        A modern, beautiful grocery search engine.
-      </div>
+    <div className="title">
+      <a href="/">
+        <div className="text-3xl font-bold text-green-500">
+          hello <span className="text-white">tummy</span>
+        </div>
+      </a>
+      <div className="text-gray-400">A grocery search engine.</div>
       <SearchBar />
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
