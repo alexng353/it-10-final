@@ -1,0 +1,270 @@
+{
+  "status": "ok",
+  "request": { "search": ["chocolate cookies"] },
+  "results": [
+    {
+      "name": "BritanniaNutro Wafers, Chocolate75 g",
+      "price": "MULTI",
+      "img": "https://assets.shop.loblaws.ca/products/20855513002/b1/en/front/20855513002_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/nutro-wafers-chocolate/p/20855513002_EA"
+    },
+    {
+      "name": "LotteKoala March Biscuits, Chocolate 41 g",
+      "price": "$1.09ea",
+      "img": "https://assets.shop.loblaws.ca/products/20431025/b1/en/front/20431025_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/koala-march-biscuits-chocolate/p/20431025_EA"
+    },
+    {
+      "name": "TwixCookie Bar50 g",
+      "price": "MULTI",
+      "img": "https://assets.shop.loblaws.ca/products/20695015/b1/en/front/20695015_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/cookie-bar/p/20695015_EA"
+    },
+    {
+      "name": "Hershey'sMix COOKIES 'N' CR\\u00c8ME candy43 g",
+      "price": "MULTI",
+      "img": "https://assets.shop.loblaws.ca/products/20687591005/b1/en/front/20687591005_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/mix-cookies-n-cr-me-candy/p/20687591005_EA"
+    },
+    {
+      "name": "GardenCream Wafers, Chocolate Flavour200 g",
+      "price": "SALE",
+      "img": "https://assets.shop.loblaws.ca/products/20312830003/b1/en/front/20312830003_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/cream-wafers-chocolate-flavour/p/20312830003_EA"
+    },
+    {
+      "name": "OvaltineBiscuits with Malt150 g",
+      "price": "$1.49ea",
+      "img": "https://assets.shop.loblaws.ca/products/20118969/b1/en/front/20118969_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/biscuits-with-malt/p/20118969_EA"
+    },
+    {
+      "name": "No NameWafers, Cocoa175 g",
+      "price": "$1.49ea",
+      "img": "https://assets.shop.loblaws.ca/products/20572093001/b1/en/front/20572093001_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/wafers-cocoa/p/20572093001_EA"
+    },
+    {
+      "name": "ChristieOriginal Cookies57 g",
+      "price": "$1.59ea",
+      "img": "https://assets.shop.loblaws.ca/products/21389964/b1/en/front/21389964_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/original-cookies/p/21389964_EA"
+    },
+    {
+      "name": "OreoOriginal Cookies45 g",
+      "price": "$1.59ea",
+      "img": "https://assets.shop.loblaws.ca/products/21389960/b1/en/front/21389960_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/original-cookies/p/21389960_EA"
+    },
+    {
+      "name": "ClifCrunch Chocolate Chip Energy Bar68 g",
+      "price": "$1.79ea",
+      "img": "https://assets.shop.loblaws.ca/products/20130914003/b1/en/front/20130914003_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/crunch-chocolate-chip-energy-bar/p/20130914003_EA"
+    },
+    {
+      "name": "GlicoPocky, Chocolate40 g",
+      "price": "$1.99ea",
+      "img": "https://assets.shop.loblaws.ca/products/20073432001/b1/en/front/20073432001_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/pocky-chocolate/p/20073432001_EA"
+    },
+    {
+      "name": "MeijiHello Panda Chocolate60 g",
+      "price": "$1.99ea",
+      "img": "https://assets.shop.loblaws.ca/products/21183382/b1/en/front/21183382_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/hello-panda-chocolate/p/21183382_EA"
+    },
+    {
+      "name": "MeijiYan Yan Chocolate57 g",
+      "price": "$1.99ea",
+      "img": "https://assets.shop.loblaws.ca/products/21183385/b1/en/front/21183385_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/yan-yan-chocolate/p/21183385_EA"
+    },
+    {
+      "name": "Mr. CookiesMr. Mini Vanilla Flavoured Cookies with Chocolate Drizzle150 g",
+      "price": "$1.99ea",
+      "img": "https://assets.shop.loblaws.ca/products/20066301001/b1/en/front/20066301001_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/mr-mini-vanilla-flavoured-cookies-with-chocolate-d/p/20066301001_EA"
+    },
+    {
+      "name": "Betty CrockerChocolate Chip Cookie Mix Snack Size212 g",
+      "price": "$1.99ea",
+      "img": "https://assets.shop.loblaws.ca/products/21183208/b1/en/front/21183208_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/chocolate-chip-cookie-mix-snack-size/p/21183208_EA"
+    },
+    {
+      "name": "Mr. CookiesMr Mini Cookies150 g",
+      "price": "$1.99ea",
+      "img": "https://assets.shop.loblaws.ca/products/20066301002/b1/en/front/20066301002_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/mr-mini-cookies/p/20066301002_EA"
+    },
+    {
+      "name": "NestleCookie Crumble Wafer Bar120 g",
+      "price": "$2.00ea",
+      "img": "https://assets.shop.loblaws.ca/products/21237306/b1/en/front/21237306_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/cookie-crumble-wafer-bar/p/21237306_EA"
+    },
+    {
+      "name": "RoosterChocolate Flavour Wafer Sticks 280 g",
+      "price": "$2.19ea",
+      "img": "https://assets.shop.loblaws.ca/products/21001001/b1/en/front/21001001_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/chocolate-flavour-wafer-sticks/p/21001001_EA"
+    },
+    {
+      "name": "KrakusBiscuit with Chocolate, Orange135 g",
+      "price": "$2.29ea",
+      "img": "https://assets.shop.loblaws.ca/products/20694654001/b1/en/front/20694654001_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/biscuit-with-chocolate-orange/p/20694654001_EA"
+    },
+    {
+      "name": "Hershey's Cookies 'N' Creme Family Size Candy Bar100 g",
+      "price": "MULTI",
+      "img": "https://assets.shop.loblaws.ca/products/20320606001/b1/en/front/20320606001_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/cookies-n-creme-family-size-candy-bar/p/20320606001_EA"
+    },
+    {
+      "name": "New",
+      "price": "Hershey's Cookies 'N' Creme Snack Sized Candy Bars102 g",
+      "img": "https://assets.shop.loblaws.ca/products/21333677/b1/en/front/21333677_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/cookies-n-creme-snack-sized-candy-bars/p/21333677_EA"
+    },
+    {
+      "name": "Mr. CookiesMr. Chippy Chocolate Chip Cookies300 g",
+      "price": "$2.29ea",
+      "img": "https://assets.shop.loblaws.ca/products/20707999/b1/en/front/20707999_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/mr-chippy-chocolate-chip-cookies/p/20707999_EA"
+    },
+    {
+      "name": "Mr. CookiesMr. Creamy Chocolate & Vanilla Creme Cookies350 g",
+      "price": "$2.29ea",
+      "img": "https://assets.shop.loblaws.ca/products/20318782/b1/en/front/20318782_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/mr-creamy-chocolate-vanilla-creme-cookies/p/20318782_EA"
+    },
+    {
+      "name": "TwixMars Juniors100 g",
+      "price": "MULTI",
+      "img": "https://assets.shop.loblaws.ca/products/20937709/b1/en/front/20937709_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/mars-juniors/p/20937709_EA"
+    },
+    {
+      "name": "New",
+      "price": "Hershey's Cookies'N'Creme With Graham Clusters Chocolate Bar90 g",
+      "img": "https://assets.shop.loblaws.ca/products/NoImage/b3/en/front/NoImage_front_a06.png",
+      "link": "https://www.realcanadiansuperstore.ca/cookies-n-creme-with-graham-clusters-chocolate-ba/p/21409693_EA"
+    },
+    {
+      "name": "CadburyDairy Milk Peanut Butter Chocolate Bar100 g",
+      "price": "MULTI",
+      "img": "https://assets.shop.loblaws.ca/products/21126037/b1/en/front/21126037_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/dairy-milk-peanut-butter-chocolate-bar/p/21126037_EA"
+    },
+    {
+      "name": "Suzie's Good FatsChocolate Chip Cookie Dough Plant-Based39 g",
+      "price": "$2.69ea",
+      "img": "https://assets.shop.loblaws.ca/products/21125123/b1/en/front/21125123_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/chocolate-chip-cookie-dough-plant-based/p/21125123_EA"
+    },
+    {
+      "name": "GlicoPocky, Chocolate70 g",
+      "price": "$2.69ea",
+      "img": "https://assets.shop.loblaws.ca/products/20815469/b1/en/front/20815469_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/pocky-chocolate/p/20815469_EA"
+    },
+    {
+      "name": "New",
+      "price": "GlicoPocky Chocolate Banana Biscuit Sticks70 g",
+      "img": "https://assets.shop.loblaws.ca/products/21237372/b1/en/front/21237372_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/pocky-chocolate-banana-biscuit-sticks/p/21237372_EA"
+    },
+    {
+      "name": "DareRealfruit Sours180 g",
+      "price": "MULTI",
+      "img": "https://assets.shop.loblaws.ca/products/21391733/b1/en/front/21391733_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/realfruit-sours/p/21391733_EA"
+    },
+    {
+      "name": "DareRealfruit Tropical180 g",
+      "price": "MULTI",
+      "img": "https://assets.shop.loblaws.ca/products/21391731/b1/en/front/21391731_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/realfruit-tropical/p/21391731_EA"
+    },
+    {
+      "name": "DareGummies Medley180 g",
+      "price": "MULTI",
+      "img": "https://assets.shop.loblaws.ca/products/21391610/b1/en/front/21391610_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/gummies-medley/p/21391610_EA"
+    },
+    {
+      "name": "DareRealfruit Superfruits180 g",
+      "price": "MULTI",
+      "img": "https://assets.shop.loblaws.ca/products/21391723/b1/en/front/21391723_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/realfruit-superfruits/p/21391723_EA"
+    },
+    {
+      "name": "DareSours Citrus Burst180 g",
+      "price": "$2.69ea",
+      "img": "https://assets.shop.loblaws.ca/products/21436392/b1/en/front/21436392_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/sours-citrus-burst/p/21436392_EA"
+    },
+    {
+      "name": "LeclercCelebration Milk Chocolate Cake240 g",
+      "price": "$2.79ea",
+      "img": "https://assets.shop.loblaws.ca/products/20965368/b1/en/front/20965368_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/celebration-milk-chocolate-cake/p/20965368_EA"
+    },
+    {
+      "name": "President's Choice Dark Chocolate Concerto Biscuits 240 g",
+      "price": "MULTI",
+      "img": "https://assets.shop.loblaws.ca/products/20971821/b1/en/front/20971821_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/dark-chocolate-concerto-biscuits/p/20971821_EA"
+    },
+    {
+      "name": "President's ChoiceChocolate Crunchy Cubs Graham Cookies210 g",
+      "price": "MULTI",
+      "img": "https://assets.shop.loblaws.ca/products/21295984/b1/en/front/21295984_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/chocolate-crunchy-cubs-graham-cookies/p/21295984_EA"
+    },
+    {
+      "name": "LeclercC\\u00e9l\\u00e9bration Butter Cookies Chocolate Chip 240 g",
+      "price": "$2.79ea",
+      "img": "https://assets.shop.loblaws.ca/products/21355599/b1/en/front/21355599_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/c-l-bration-butter-cookies-chocolate-chip/p/21355599_EA"
+    },
+    {
+      "name": "LeclercCelebration Caramel Milk Chocolate Cookies240 g",
+      "price": "$2.79ea",
+      "img": "https://assets.shop.loblaws.ca/products/20853797001/b1/en/front/20853797001_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/celebration-caramel-milk-chocolate-cookies/p/20853797001_EA"
+    },
+    {
+      "name": "President's ChoiceMilk Chocolate Concreto Biscuits 240 g",
+      "price": "MULTI",
+      "img": "https://assets.shop.loblaws.ca/products/20973036/b1/en/front/20973036_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/milk-chocolate-concreto-biscuits/p/20973036_EA"
+    },
+    {
+      "name": "LeclercCelebration 45% Chocolate Butter Cake240 g",
+      "price": "$2.79ea",
+      "img": "https://assets.shop.loblaws.ca/products/20965366/b1/en/front/20965366_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/celebration-45-chocolate-butter-cake/p/20965366_EA"
+    },
+    {
+      "name": "LeclercCelebration Raspberry Milk Chocolate Coated Cookies240 g",
+      "price": "$2.79ea",
+      "img": "https://assets.shop.loblaws.ca/products/20856318/b1/en/front/20856318_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/celebration-raspberry-milk-chocolate-coated-cookie/p/20856318_EA"
+    },
+    {
+      "name": "LeclercCelebration Butter Cookies Dark Chocolate 70% Cocoa240 g",
+      "price": "$2.79ea",
+      "img": "https://assets.shop.loblaws.ca/products/20965363/b1/en/front/20965363_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/celebration-butter-cookies-dark-chocolate-70-cocoa/p/20965363_EA"
+    },
+    {
+      "name": "LeclercCelebration Milk Chocolate Butter Cake240 g",
+      "price": "$2.79ea",
+      "img": "https://assets.shop.loblaws.ca/products/20965372/b1/en/front/20965372_front_a01.png",
+      "link": "https://www.realcanadiansuperstore.ca/celebration-milk-chocolate-butter-cake/p/20965372_EA"
+    }
+  ]
+}

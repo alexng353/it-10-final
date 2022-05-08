@@ -1,8 +1,12 @@
-import { TextField, Box, FormControl } from "@mui/material";
+import { TextField, Box, FormControl, FormControlLabel, FormLabel, Radio, RadioGroup } from "@mui/material";
 import { ButtonUnstyled } from "@mui/base";
 import { styled } from "@mui/material/styles";
 import { useState } from "react";
 import { useRouter } from "next/router";
+
+import { IconButton } from "@mui/material";
+import ClearIcon from "@mui/icons-material/Clear";
+import { InputAdornment } from '@mui/material';
 
 const SearchBar = styled(TextField)({
   "& .MuiInputBase-root": {
@@ -53,7 +57,9 @@ const SearchButton = styled(ButtonUnstyled)`
 
 export default function Search() {
   const [search, setSearch] = useState("");
+  const [searchBarValue, setSearchBarValue] = useState("");
   const router = useRouter();
+  const query = router.query;
 
   return (
     <div id="search" className="max-w-2xl">
@@ -63,12 +69,21 @@ export default function Search() {
           placeholder="Search for a product"
           size="small"
           fullWidth
+          
           onChange={(e) => {
             setSearch(e.target.value);
           }}
+
           onKeyPress={(e) => {
-            if (e.keyCode === 0) {
-              window.location.href = `/search?q=${search}`;
+            if (e.key === "Enter") {
+              // window.location.href = `/search?q=${search}`;
+              // router.push(`/search?q=${search}?sort=${query.sort}`);
+              // check if sort is set
+              if (query.sort) {
+                router.push(`/search?q=${search}&sort=${query.sort}`);
+              } else {
+                router.push(`/search?q=${search}`);
+              }
             }
           }}
         />
