@@ -1,12 +1,8 @@
-import { TextField, Box, FormControl, FormControlLabel, FormLabel, Radio, RadioGroup } from "@mui/material";
+import { TextField, Box } from "@mui/material";
 import { ButtonUnstyled } from "@mui/base";
 import { styled } from "@mui/material/styles";
 import { useState } from "react";
 import { useRouter } from "next/router";
-
-import { IconButton } from "@mui/material";
-import ClearIcon from "@mui/icons-material/Clear";
-import { InputAdornment } from '@mui/material';
 
 const SearchBar = styled(TextField)({
   "& .MuiInputBase-root": {
@@ -57,7 +53,6 @@ const SearchButton = styled(ButtonUnstyled)`
 
 export default function Search() {
   const [search, setSearch] = useState("");
-  const [searchBarValue, setSearchBarValue] = useState("");
   const router = useRouter();
   const query = router.query;
 
@@ -76,13 +71,10 @@ export default function Search() {
 
           onKeyPress={(e) => {
             if (e.key === "Enter") {
-              // window.location.href = `/search?q=${search}`;
-              // router.push(`/search?q=${search}?sort=${query.sort}`);
-              // check if sort is set
               if (query.sort) {
-                router.push(`/search?q=${search}&sort=${query.sort}`);
+                router.push(`/?search=${search}&sort=${query.sort}`);
               } else {
-                router.push(`/search?q=${search}`);
+                router.push(`/?search=${search}`);
               }
             }
           }}
@@ -92,7 +84,11 @@ export default function Search() {
           variant="contained"
           color="primary"
           onClick={() => {
-            console.log("Submitted");
+            if (query.sort) {
+              router.push(`/?search=${search}&sort=${query.sort}`);
+            } else {
+              router.push(`/?search=${search}`);
+            }
           }}
         >
           Search

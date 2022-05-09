@@ -1,8 +1,7 @@
 import React from "react";
-import { useState } from "react";
 import { useRouter } from "next/router";
-import { useEffect } from "react";
-import { FormControl, FormLabel, RadioGroup, FormControlLabel, Radio, Box } from "@mui/material";
+import { FormControl, RadioGroup, FormControlLabel, Radio, Box } from "@mui/material";
+
 
 export default function SortControl() {
     const router = useRouter();
@@ -19,13 +18,13 @@ export default function SortControl() {
                     row
                     name="row-radio-buttons-group"
                     onChange={(e) => {
-                        router.push(`/search?q=${query.q}&sort=${e.target.value}`);
+                        router.push(`/?q=${query.search}&sort=${e.target.value}`);
                     }}
                     defaultValue={query.sort ? query.sort : "default"}
                     >
                     <FormControlLabel value="price" control={<Radio className="text-white"/>} label="Price" />
                     <FormControlLabel value="name" control={<Radio className="text-white"/>} label="Name" />
-                    <FormControlLabel value="value" control={<Radio className="text-white"/>} label="Value"/>
+                    {/* <DisabledFormControlLabel value="value" control={<RadioButton disabled className="text-white"/>} label="Value"/> */}
                     <FormControlLabel value="default" control={<Radio className="text-white"/>} label="Default" />
                     </RadioGroup>
                 </FormControl>
