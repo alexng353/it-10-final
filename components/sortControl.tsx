@@ -1,6 +1,6 @@
 import React from "react";
 import { useRouter } from "next/router";
-import { FormControl, RadioGroup, FormControlLabel, Radio, Box } from "@mui/material";
+import { FormControl, RadioGroup, FormControlLabel, Radio, Box, Divider } from "@mui/material";
 
 
 export default function SortControl() {
@@ -18,15 +18,29 @@ export default function SortControl() {
                     row
                     name="row-radio-buttons-group"
                     onChange={(e) => {
-                        router.push(`/?q=${query.search}&sort=${e.target.value}`);
+                        router.push(`/?search=${query.search}&sort=${e.target.value}&order=${query.order}`);
                     }}
                     defaultValue={query.sort ? query.sort : "default"}
                     >
-                    <FormControlLabel value="price" control={<Radio className="text-white"/>} label="Price" />
-                    <FormControlLabel value="name" control={<Radio className="text-white"/>} label="Name" />
-                    {/* <DisabledFormControlLabel value="value" control={<RadioButton disabled className="text-white"/>} label="Value"/> */}
-                    <FormControlLabel value="default" control={<Radio className="text-white"/>} label="Default" />
+                        <FormControlLabel value="price" control={<Radio className="text-white"/>} label="Price" />
+                        <FormControlLabel value="name" control={<Radio className="text-white"/>} label="Name" />
+                        {/* <DisabledFormControlLabel value="value" control={<RadioButton disabled className="text-white"/>} label="Value"/> */}
+                        <FormControlLabel value="default" control={<Radio className="text-white"/>} label="Default" />
+                        {/* <FormControlLabel value="price-desc" control={<Radio className="text-white"/>} label="Price - Descending" /> */}
                     </RadioGroup>
+                    <RadioGroup
+                    row
+                    name="row-radio-buttons-group-order"
+                    onChange={(e) => {
+                        router.push(`/?search=${query.search}&sort=${query.sort}&order=${e.target.value}`);
+                    }
+                    }
+                    defaultValue={query.order ? query.order : "asc"}
+                    >
+                        <FormControlLabel value="asc" control={<Radio className="text-white"/>} label="Ascending" />
+                        <FormControlLabel value="desc" control={<Radio className="text-white"/>} label="Descending" />
+                    </RadioGroup>
+
                 </FormControl>
             </Box>
         </div>

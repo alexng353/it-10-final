@@ -55,6 +55,16 @@ export default function Search() {
   const [search, setSearch] = useState("");
   const router = useRouter();
   const query = router.query;
+  function pusher() {
+    // check if query.sort exists: if not, don't add &sort=
+    // check if query.order exists: if not, don't add &order=
+    if (search !== "") {
+    router.push(
+      `/?search=${search}&sort=${query.sort ? query.sort : "default"}&order=${query.order ? query.order : "asc"}`
+    );
+    }
+    // router.push(`/?search=${search}&sort=${query.sort}&order=${query.order}`);
+  }
 
   return (
     <div id="search" className="max-w-2xl">
@@ -71,11 +81,7 @@ export default function Search() {
 
           onKeyPress={(e) => {
             if (e.key === "Enter") {
-              if (query.sort) {
-                router.push(`/?search=${search}&sort=${query.sort}`);
-              } else {
-                router.push(`/?search=${search}`);
-              }
+              pusher()
             }
           }}
         />
@@ -84,11 +90,7 @@ export default function Search() {
           variant="contained"
           color="primary"
           onClick={() => {
-            if (query.sort) {
-              router.push(`/?search=${search}&sort=${query.sort}`);
-            } else {
-              router.push(`/?search=${search}`);
-            }
+            pusher()
           }}
         >
           Search
