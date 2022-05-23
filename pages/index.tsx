@@ -27,7 +27,7 @@ function Search() {
   const [loading, setLoading] = React.useState(false);
 
   useEffect(() => {
-    fetch(`https://dev.ayo.icu/api/walmart/?search=${query.search}`)
+    fetch(`https://grocery.ayo.icu/api/walmart/?search=${query.search}`)
       .then((res) => res.json())
       .then((info) => {
         setWalmartData(info);
@@ -37,7 +37,7 @@ function Search() {
 
   useEffect(() => {
     setLoading(true);
-    fetch(`https://dev.ayo.icu/api/superstore/?search=${query.search}`)
+    fetch(`https://grocery.ayo.icu/api/superstore/?search=${query.search}`)
       .then((res) => res.json())
       .then((info) => {
         setSuperstoreData(info);
@@ -140,6 +140,8 @@ function Search() {
     );
   }
 
+
+  // function does nothing because i am lazy and used regex to get the price
   function valueParser(value: string) {
     // this function is to compare the value of different things and rank them accordingly because walmart has different price/unit things
     // probably using regex to parse the value and compare it to the other values
@@ -190,7 +192,7 @@ function Search() {
           <br />
           <br />
           <span className="">
-            {(WalmartData.status === "ok" || WalmartData.status === "error") &&
+            { (WalmartData.status === "ok" || WalmartData.status === "error") &&
             SuperstoreData.status === "ok" &&
             loading === false ? (
               <DataView />
